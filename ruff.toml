@@ -1,9 +1,6 @@
 exclude = [
-    "part3/.aws-sam/",
-    "part3/contents/",
-    "part3/src/",
-    "download_lambda/src/",
-    "clone_git/",
+    ".aws-sam",
+    ".venv",
 ]
 
 line-length = 160
