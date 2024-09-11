@@ -1,0 +1,12 @@
+exclude = [
+    "part3/.aws-sam/",
+    "part3/contents/",
+    "part3/src/",
+    "download_lambda/src/",
+    "clone_git/",
+]
+
+line-length = 160
+
+[lint]
+ignore = [ "T201" ]
